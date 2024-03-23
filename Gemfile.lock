@@ -100,6 +100,8 @@ GEM
       i18n (>= 1.8.11, < 2)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    graphql (2.2.11)
+      base64
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     io-console (0.7.2)
@@ -216,6 +218,7 @@ DEPENDENCIES
   error_highlight (>= 0.4.0)
   factory_bot_rails
   faker
+  graphql
   mysql2 (~> 0.5)
   puma (>= 5.0)
   rails (~> 7.1.2)
