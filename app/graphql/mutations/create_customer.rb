@@ -19,3 +19,15 @@ module Mutations
     end
   end
 end
+
+
+# mutation {
+#   createCustomer( input: { name: "Pepito Santos", identification: "106927128898"}) {
+#     customer {
+#       id
+#       name
+#       identification
+#     }
+#     errors
+#   }
+# }
